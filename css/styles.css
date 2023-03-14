@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 2rem;
+}
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.container {
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 3%;
+  padding: 1%;
+}
+
+/* Title Image */
+.title-image {
+  width: 50%;
+  transform: rotate(0.1turn);
+  position: relative;
+}
+
+.col-item {
+  padding: 3% 0;
+}
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.features-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+i {
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+i:hover {
+  color: #ff4c68;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+/* Pricing */
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+.card-group {
+  position: relative;
+}
+.card {
+  margin: 1rem 1rem;
+  padding: 1rem;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    transform: rotate(0);
+    position: relative;
+  }
+}
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15% 7% 15%;
+  color: #fff;
+}
+
+.cta-h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.col-cta {
+  padding: 5% 0%;
+}
+
+.download-button1 {
+  padding: 0.5rem;
+  margin: 2rem;
+}
+/* Footer */
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.footer-icon {
+  margin: 10px;
+}
